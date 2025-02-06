@@ -2,7 +2,7 @@
 ## Business Understanding
 User reviews are important for an app, by understanding the sentiment of user reviews we can know whether users are satisfied with the app or not, so we know when the app needs to be improved. But it would be very resource-intensive to handle a lot of user reviews by classifying them ourselves. Machine learning models can be a solution to help classify them automatically.
 
-## The Objectives
+## Objectives
 The aim of this project is to create a sentiment classification model based on reviews. As a result, this model can help companies to know whether user reviews have positive or negative sentiment, so that they know whether their features and services need to be improved or maintained.
 
 - Collect and process the user review data of GoPay app.
