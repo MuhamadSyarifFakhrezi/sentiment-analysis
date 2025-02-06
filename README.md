@@ -10,7 +10,7 @@ The aim of this project is to create a sentiment classification model based on r
 - Build an accurate predictive model to predict the user sentiment based on their review text.
 
 ## Data Understanding
-The data obtained through scraping technique of user review data for GoPay app on Google Playstore with (google play scraper)[https://pypi.org/project/google-play-scraper/] library. (Dataset)[https://github.com/MuhamadSyarifFakhrezi/sentiment-analysis/blob/main/gopay_reviews.csv]
+The data obtained through scraping technique of user review data for GoPay app on Google Playstore with (google play scraper)[https://pypi.org/project/google-play-scraper/] library. [Dataset](https://github.com/MuhamadSyarifFakhrezi/sentiment-analysis/blob/main/gopay_reviews.csv)
 
 ## Text preprocessing
 Text preprocessing techniques indclude: 
@@ -24,9 +24,13 @@ Text preprocessing techniques indclude:
 ![Screenshot (988)](https://github.com/user-attachments/assets/327184a3-13e9-406b-9ab0-0b3551242f94)
 
 ## Labelling
-Labelling process is done based on the user review, each word in the text of user review checked and given a score based on a dictionary of (positive)[https://github.com/angelmetanosaa/dataset/blob/main/lexicon_positive.csv] and (negative words)[https://github.com/angelmetanosaa/dataset/blob/main/lexicon_negative.csv], then the total score used as a reference to determine whether the text belongs to the positive, negative, or neutral sentiment category.
+Labelling process is done based on the user review, each word in the text of user review checked and given a score based on a dictionary of [positive](https://github.com/angelmetanosaa/dataset/blob/main/lexicon_positive.csv) and [negative](https://github.com/angelmetanosaa/dataset/blob/main/lexicon_negative.csv) words, then the total score used as a reference to determine whether the text belongs to the positive, negative, or neutral sentiment category.
 
 ![distribution chart](https://github.com/user-attachments/assets/d5f85dc3-a34a-41c3-adec-91b3b9cc9666)
+
+![text lenght distribution](https://github.com/user-attachments/assets/50354c69-7702-489c-9f9b-4187bf6da856)
+
+![most frequent words](https://github.com/user-attachments/assets/e9a50468-ea38-4332-8b47-1d9e175ac462)
 
 As we can see, majority of the user reviews have positive sentiment followed by negative and neutral sentiment. The average text length ranges from 1-10 words. And the top three most frequently occuring words are 'mantap', 'bagus', and 'bantu'.
 
